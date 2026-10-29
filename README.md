@@ -1,225 +1,154 @@
-# Awesome-Headless-Commerce-Framework
+# 🛍️ Awesome Headless Commerce Framework
 
-## Top Headless Commerce Framework Ecosystem
+<div align="center">
 
+![Awesome Headless Commerce Framework Banner](assets/banner.svg)
 
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Headless-Commerce-Framework)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Headless-Commerce-Framework/blob/main/README.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**Curated Index of Headless Commerce Frameworks, Composable Storefronts, API-First Commerce Platforms & Framework-Agnostic Toolkits.**
 
-*Focused on Composable Storefronts, API-First Commerce & Framework-Agnostic Toolkits*  
+*Build lightning-fast, ultra-scalable, SEO-optimized digital storefronts by decoupling frontend presentation from backend commerce engines.*
 
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Headless Commerce Frameworks**. These tools enable developers to decouple the frontend presentation layer from backend commerce logic—building fast, customizable storefronts that consume product, cart, and checkout data via APIs from platforms like Shopify, Medusa, Saleor, or custom backends.
-
-
-
-**Examples** include Hydrogen, Next.js, Nuxt.js, Gatsby, Remix, Astro, SvelteKit, Angular Universal, SolidStart, and Frontity (the category leaders).
-
-
-
-**Open-source emphasis**: Headless Commerce is a domain where open-source tooling is **exceptionally mature and production-proven**—but the "framework" landscape is shifting. **Hydrogen** is no longer a framework itself; as of October 2026 it is a **framework-agnostic library** you add to React Router, Next.js, or any JavaScript stack, handling cart, variants, pricing, and analytics while your framework owns routing and rendering . **Next.js Commerce** provides Vercel's official Shopify starter using React Server Components and App Router . **Frontity** remains a dedicated React framework specifically for headless WordPress . **Svelte Commerce** offers multi-platform connectors spanning 20+ commerce backends . **Astro** provides a content-optimized storefront template with zero JavaScript by default . The critical caveat: most "frameworks" here are **general-purpose web frameworks** adapted for commerce, not commerce-specific frameworks—and Hydrogen's pivot to a library means the era of commerce-specific frontend frameworks is consolidating toward framework-agnostic toolkits.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Shopify Hydrogen](https://hydrogen.shopify.dev/)**  
-
-  Shopify's commerce toolkit, now a **framework-agnostic library** (October 2026) rather than a framework; add it to React Router, Next.js, or any JS stack to get cart, variants, pricing, Shop Pay, and analytics . Hosting on Oxygen remains free, but you can deploy anywhere (Vercel, Cloudflare Workers, Node, Deno) .
-
-
-
-- **[Vercel (Next.js Commerce)](https://vercel.com/)**  
-
-  Vercel maintains the Next.js Commerce starter, actively supporting a Shopify version with React Server Components and App Router; other commerce providers can fork and swap the Shopify implementation .
-
-
-
-- **[Netlify](https://www.netlify.com/)**  
-
-  Hosting platform commonly paired with Gatsby, Astro, and other headless frameworks; provides Git-based deployments and serverless functions.
-
-
-
-- **[Cloudflare Pages](https://pages.cloudflare.com/)**  
-
-  Edge hosting for headless storefronts with Workers integration; supports frameworks like Astro, Next.js, and SvelteKit.
-
-
-
-- **[Oxygen (Shopify)](https://shopify.dev/docs/api/hydrogen/latest/oxygen)**  
-
-  Shopify's hosting platform for Hydrogen storefronts; free and optimized for Shopify commerce APIs, but no longer required for Hydrogen usage .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Framework-Agnostic Commerce Toolkits
-
-
-
-- **[Hydrogen (Shopify)](https://github.com/Shopify/hydrogen)**  
-
-  The pivot from framework to **library** is the defining shift of 2026. Hydrogen now handles commerce primitives—cart state, variant selection, buyer-currency pricing, analytics, Shop Pay, customer login—while your chosen framework (React Router, Next.js, Vue, or any fetch-capable runtime) owns routing and rendering . Ships with **20 agent skills** that teach coding agents how to wire storefronts, versioned to your installed package. Host anywhere, including Oxygen (free). **The most strategically important open-source commerce toolkit** for Shopify-based headless builds, precisely because it no longer forces a framework choice.
-
-
-
-### Commerce-Specific Frameworks & Starters
-
-
-
-- **[Next.js Commerce](https://github.com/vercel/commerce)**  
-
-  Vercel's official high-performance storefront using **React Server Components, Server Actions, Suspense, and useOptimistic** . Actively maintained for Shopify; other providers fork and swap `lib/shopify`. **The reference implementation for Next.js App Router commerce**—not a general framework, but the starter that defines modern React commerce patterns.
-
-
-
-- **[Frontity](https://github.com/frontity/frontity)**  
-
-  React-based framework specifically for **headless WordPress** storefronts and blogs . Connects to WordPress REST API; runs on Node.js separate from the WordPress server. **The dedicated framework for WordPress-backed headless sites**—not general commerce, but the only framework with native WordPress integration as its core design goal.
-
-
-
-- **[Svelte Commerce](https://github.com/itswadesh/svelte-commerce)**  
-
-  Multi-platform headless commerce frontend with **connectors for 20+ backends** including Vendure, Medusa, Saleor, Shopware, WooCommerce, Magento, Spree, and commercetools . Coverage varies by platform (Litekart and Vendure at 39/43 endpoints; Bagisto at 22/43). **The broadest backend-agnostic commerce frontend**, though connector maturity is uneven and none have been tested against live production instances.
-
-
-
-- **[Astro Audiophile (Azion)](https://github.com/aziontech/astro-audiophile)**  
-
-  Astro-based ecommerce template with product listings, detail pages, cart, and checkout . Astro's **zero-JavaScript-by-default** architecture provides fast page loads and strong SEO via Static Site Generation. **The strongest option for content-heavy storefronts** where SEO and performance outweigh interactivity—not a framework, but a production-ready commerce template.
-
-
-
-### General-Purpose Frameworks Used for Commerce
-
-
-
-- **[Next.js](https://github.com/vercel/next.js)**  
-
-  React framework with App Router, Server Components, and Server Actions; widely used for headless commerce via Next.js Commerce and custom builds . **The dominant React framework for commerce**, but not commerce-specific—commerce logic comes from Hydrogen or custom API integrations.
-
-
-
-- **[Nuxt.js](https://github.com/nuxt/nuxt)**  
-
-  Vue framework with SSR and static generation; commerce modules like `mbl-shop` provide cart, product, and checkout primitives . **The Vue equivalent of Next.js for commerce**, with a smaller but growing headless commerce ecosystem.
-
-
-
-- **[Gatsby](https://github.com/gatsbyjs/gatsby)**  
-
-  React static-site framework historically popular for headless commerce via starters and Snipcart integration . **Usage has declined** as Next.js and Astro have gained share; existing Gatsby storefronts remain functional but new projects typically choose alternatives.
-
-
-
-- **[Remix](https://github.com/remix-run/remix)**  
-
-  React framework (now merged into React Router) with nested routing and data loading; Shopify's Remix Store is open-source and built with Remix + Hydrogen . **Now part of React Router**, which is one of Hydrogen's supported frameworks.
-
-
-
-- **[SvelteKit](https://github.com/sveltejs/kit)**  
-
-  Svelte framework with SSR and static generation; supports headless commerce through adapters and community starters.
-
-
-
-- **[Astro](https://github.com/withastro/astro)**  
-
-  Content-focused framework with islands architecture and zero JS by default; commerce templates like Astro Audiophile demonstrate storefront viability .
-
-
-
-- **[Angular Universal](https://github.com/angular/universal)**  
-
-  Angular's SSR solution; used for enterprise headless commerce where Angular is the organizational standard. **Niche**—the Angular commerce ecosystem is smaller than React or Vue.
-
-
-
-- **[SolidStart](https://github.com/solidjs/solid-start)**  
-
-  SolidJS meta-framework; headless commerce usage remains **experimental** with limited community templates.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Saleor Storefront** — React/Next.js storefront for Saleor's GraphQL commerce API; production-grade but tied to Saleor backend .
-
-- **Bagisto Next.js Commerce** — Headless storefront starter connecting Bagisto (Laravel) to Next.js .
-
-- **Vue Storefront (Alokai)** — Frontend-as-a-Service for composable commerce; connects to multiple backends .
-
-
-
-**Frameworks for building custom systems**: The framework choice depends on your backend and team. For **Shopify**, use Hydrogen as a library on React Router or Next.js . For **WordPress**, Frontity is the dedicated option . For **multi-backend flexibility**, Svelte Commerce offers the broadest connector coverage . For **content-heavy SEO-first storefronts**, Astro with a commerce template . For **general React/Vue projects**, Next.js or Nuxt.js with commerce modules. The era of commerce-specific frameworks is fading—Hydrogen's library pivot signals that commerce primitives are becoming framework-agnostic, and your framework choice should be driven by team skills and backend, not commerce features.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Headless commerce frameworks handling customer data and transactions must comply with PCI DSS for payments and privacy regulations; the decoupled architecture means security responsibility is distributed across frontend, API, and hosting layers.
-
-- **Open-source headless commerce is mature but in transition**—Hydrogen's shift from framework to library  reflects a broader consolidation: commerce primitives are becoming framework-agnostic, and general-purpose frameworks (Next.js, Nuxt, Astro) are absorbing commerce use cases. Frontity remains the dedicated option for WordPress ; Svelte Commerce offers the broadest multi-backend connectors but with uneven maturity . No single framework is "best"—the right choice depends on your commerce backend and team's framework expertise.
-
-- Verify license terms for commercial use; Hydrogen is open-source (MIT) , Next.js is MIT, Frontity is Apache 2.0, and Svelte Commerce is open-source.
-
-
+</div>
 
 ---
 
+## 📑 Table of Contents
 
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [🚀 Top Frameworks & Starters (Ranked by Stars)](#-top-frameworks--starters-ranked-by-stars)
+  - [🧰 General-Purpose Meta-Frameworks](#-general-purpose-meta-frameworks)
+- [🎯 Choosing the Right Headless Architecture](#-choosing-the-right-headless-architecture)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer & Security Guidelines](#-disclaimer--security-guidelines)
 
-**Made for frontend developers, commerce architects, and headless storefront builders.**  
+---
 
-Let's make headless commerce more open, but with clear eyes about the framework consolidation that's reshaping the landscape.
+## 🌐 Sector Overview & Market Dynamics
+
+The global **headless commerce** and **composable storefront software market** is valued at approximately **$4.8 billion in 2026** and projected to surpass **$15.2 billion by 2032**, demonstrating an accelerating compound annual growth rate (CAGR) of over 21%. 
+
+The market dynamics exhibit **moderate fragmentation with clear modular layer concentration**:
+- The **backend commerce & transaction engine layer** is relatively concentrated around a handful of dominant leaders (Shopify, commercetools, BigCommerce, Salesforce Commerce Cloud, alongside breakout open-source leaders Medusa and Saleor).
+- In contrast, the **frontend presentation & storefront framework layer** is moderately fragmented. Rather than a winner-take-all monopoly, the ecosystem has converged around modern composable web meta-frameworks (Next.js, Nuxt, Astro, SvelteKit) paired with framework-agnostic commerce toolkits (such as Shopify Hydrogen libraries) and headless Frontend-as-a-Service (FaaS) infrastructure (Vercel, Cloudflare, Netlify).
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+Below is a detailed breakdown of notable commercial hosted platforms, storefront clouds, and hosting services powering modern headless and composable commerce, sorted by **company scale (valuation / market capitalization)** in descending order.
+
+| 🏢 Platform | 💰 Company Scale (Valuation / Market Cap) | 🏷️ Starting Tier Pricing | 🎁 Free Tier & Trial Limits | ⚡ Key Commerce Specialization |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Shopify Hydrogen & Oxygen](https://hydrogen.shopify.dev/)** | **~$125 Billion** (Public: NYSE: SHOP) | **$39/month** (Shopify Basic plan) | **3-day free trial** + first month for $1; Oxygen hosting is free for Shopify merchants | Native Shopify commerce primitives, Shop Pay checkout integration, and edge-optimized serverless Oxygen deployment. |
+| **[Cloudflare Pages](https://pages.cloudflare.com/)** | **~$35 Billion** (Public: NYSE: NET) | **$20/month** (Pages / Workers Paid plan) | **Free forever plan**: Unlimited sites, 500 builds/month, 100,000 requests/day on Workers, free SSL | Ultra-low latency global edge hosting, edge middleware, KV store, and hyper-fast SSR storefront rendering. |
+| **[Netlify](https://www.netlify.com/)** | **~$2.0 Billion** (Venture-backed) | **$19/month per member** (Pro tier) | **Free forever plan**: 100 GB bandwidth/month, 300 build minutes/month, 1 concurrent build | Git-integrated automated deployments, edge functions, serverless forms, and composable web architecture. |
+| **[Vercel](https://vercel.com/)** | **~$3.25 Billion** (Venture-backed) | **$20/month per member** (Pro tier) | **Free Hobby plan**: 100 GB bandwidth/month, non-commercial use, automatic HTTPS, preview URLs | Official creators of Next.js; premier hosting for React Server Components, ISR, Edge Middleware, and Next.js Commerce. |
+| **[Alokai (Vue Storefront)](https://alokai.com/)** | **~$100 Million** (Venture-backed Series A) | **$1,500/month** (Standard Cloud tier) | **30-day free developer evaluation trial** (full access to cloud console and starter connectors) | Enterprise Frontend-as-a-Service (FaaS) providing pre-built integrations for SAP, commercetools, Magento, and Shopify. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+### 🚀 Top Frameworks & Starters (Ranked by Stars)
+
+The table below catalogs premier open-source headless commerce frameworks, starters, and composable storefront engines, strictly ordered by **GitHub Star Count** descending.
+
+| 📦 Repository & Framework | ⭐ GitHub Stars | 🧩 Primary Tech Stack | 🎯 Commerce Focus & Backend Connectors |
+| :--- | :---: | :--- | :--- |
+| **[Next.js](https://github.com/vercel/next.js)** | [![Stars](https://img.shields.io/github/stars/vercel/next.js?style=social&color=white)](https://github.com/vercel/next.js/stargazers) | React, Node.js, TypeScript | Dominant React meta-framework for high-performance SSR/SSG storefronts, App Router, and Server Actions. |
+| **[Astro](https://github.com/withastro/astro)** | [![Stars](https://img.shields.io/github/stars/withastro/astro?style=social&color=white)](https://github.com/withastro/astro/stargazers) | Islands Architecture, Vite | Zero-JS default static site generator ideal for lightning-fast, content-heavy SEO commerce storefronts. |
+| **[Nuxt](https://github.com/nuxt/nuxt)** | [![Stars](https://img.shields.io/github/stars/nuxt/nuxt?style=social&color=white)](https://github.com/nuxt/nuxt/stargazers) | Vue 3, Nitro, Vite | The premier Vue framework for composable commerce; supports modular cart, catalog, and SSR workflows. |
+| **[Gatsby](https://github.com/gatsbyjs/gatsby)** | [![Stars](https://img.shields.io/github/stars/gatsbyjs/gatsby?style=social&color=white)](https://github.com/gatsbyjs/gatsby/stargazers) | React, GraphQL | Static-first React site generator historically popular for JAMstack storefronts and CMS-driven commerce. |
+| **[Medusa](https://github.com/medusajs/medusa)** | [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Node.js, TypeScript, Express | Leading open-source headless commerce platform offering rich modular architecture, cart, and promotion engines. |
+| **[Remix](https://github.com/remix-run/remix)** | [![Stars](https://img.shields.io/github/stars/remix-run/remix?style=social&color=white)](https://github.com/remix-run/remix/stargazers) | React, Web Standards | Full-stack web framework with nested routes and optimistic UI; foundational core for modern Shopify Hydrogen. |
+| **[Saleor Core](https://github.com/saleor/saleor)** | [![Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers) | Python, Django, GraphQL | High-performance, composable, headless commerce API engineered for ultra-fast GraphQL storefront frontends. |
+| **[SvelteKit](https://github.com/sveltejs/kit)** | [![Stars](https://img.shields.io/github/stars/sveltejs/kit?style=social&color=white)](https://github.com/sveltejs/kit/stargazers) | Svelte, Vite, TypeScript | Ultra-lean, compiled framework delivering minimal client-side JavaScript bundles and rapid commerce hydration. |
+| **[Spree Commerce](https://github.com/spree/spree)** | [![Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers) | Ruby on Rails, REST/GraphQL | Mature open-source platform offering complete DTC/B2B commerce APIs and official Next.js storefront starters. |
+| **[Next.js Commerce](https://github.com/vercel/commerce)** | [![Stars](https://img.shields.io/github/stars/vercel/commerce?style=social&color=white)](https://github.com/vercel/commerce/stargazers) | Next.js, React, Tailwind CSS | Vercel's official reference implementation for modern App Router, React Server Components, and Shopify APIs. |
+| **[Vue Storefront / Alokai](https://github.com/vuestorefront/vue-storefront)** | [![Stars](https://img.shields.io/github/stars/vuestorefront/vue-storefront?style=social&color=white)](https://github.com/vuestorefront/vue-storefront/stargazers) | Vue, Nuxt, React | Leading Frontend-as-a-Service toolkit connecting modern frontends with commercetools, Magento, and Shopify. |
+| **[Vendure](https://github.com/vendure-ecommerce/vendure)** | [![Stars](https://img.shields.io/github/stars/vendure-ecommerce/vendure?style=social&color=white)](https://github.com/vendure-ecommerce/vendure/stargazers) | TypeScript, NestJS, GraphQL | Modern headless commerce framework built on TypeScript with official Remix and Next.js starter storefronts. |
+| **[Bagisto Next.js Commerce](https://github.com/bagisto/nextjs-commerce)** | [![Stars](https://img.shields.io/github/stars/bagisto/nextjs-commerce?style=social&color=white)](https://github.com/bagisto/nextjs-commerce/stargazers) | Next.js, React, Tailwind CSS | Decoupled high-performance React storefront seamlessly integrated with Bagisto headless Laravel backend. |
+| **[SolidStart](https://github.com/solidjs/solid-start)** | [![Stars](https://img.shields.io/github/stars/solidjs/solid-start?style=social&color=white)](https://github.com/solidjs/solid-start/stargazers) | SolidJS, Vite, Nitro | Reactive meta-framework delivering fine-grained reactivity and minimal overhead for experimental storefronts. |
+| **[Angular Universal](https://github.com/angular/universal)** | [![Stars](https://img.shields.io/github/stars/angular/universal?style=social&color=white)](https://github.com/angular/universal/stargazers) | Angular, TypeScript, Node.js | Server-side rendering solution for enterprise headless commerce architectures standardizing on Angular. |
+| **[Frontity](https://github.com/frontity/frontity)** | [![Stars](https://img.shields.io/github/stars/frontity/frontity?style=social&color=white)](https://github.com/frontity/frontity/stargazers) | React, Node.js, WP REST API | Dedicated React framework custom-engineered for headless WordPress and WooCommerce content-driven stores. |
+| **[Medusa Next.js Starter](https://github.com/medusajs/nextjs-starter-medusa)** | [![Stars](https://img.shields.io/github/stars/medusajs/nextjs-starter-medusa?style=social&color=white)](https://github.com/medusajs/nextjs-starter-medusa/stargazers) | Next.js, React, Tailwind CSS | Full-featured, production-ready headless ecommerce storefront starter configured for the Medusa backend. |
+| **[Shopify Hydrogen](https://github.com/Shopify/hydrogen)** | [![Stars](https://img.shields.io/github/stars/Shopify/hydrogen?style=social&color=white)](https://github.com/Shopify/hydrogen/stargazers) | React, React Router, Vite | Shopify's framework-agnostic headless commerce library for cart, pricing, variant picking, and analytics. |
+| **[Svelte Commerce](https://github.com/itswadesh/svelte-commerce)** | [![Stars](https://img.shields.io/github/stars/itswadesh/svelte-commerce?style=social&color=white)](https://github.com/itswadesh/svelte-commerce/stargazers) | SvelteKit, TypeScript | Multi-backend storefront connecting SvelteKit to 20+ backends (Medusa, Shopify, Saleor, Vendure, WooCommerce). |
+| **[Saleor Storefront](https://github.com/saleor/storefront)** | [![Stars](https://img.shields.io/github/stars/saleor/storefront?style=social&color=white)](https://github.com/saleor/storefront/stargazers) | Next.js, TypeScript, GraphQL | Official production-grade React storefront utilizing Saleor's comprehensive GraphQL commerce APIs. |
+| **[WooNuxt](https://github.com/scottyzen/woonuxt)** | [![Stars](https://img.shields.io/github/stars/scottyzen/woonuxt?style=social&color=white)](https://github.com/scottyzen/woonuxt/stargazers) | Nuxt 3, Vue 3, GraphQL | High-performance static and SSR headless storefront connecting Nuxt 3 with WooCommerce via WPGraphQL. |
+| **[Storefront Remix Starter](https://github.com/vendurehq/storefront-remix-starter)** | [![Stars](https://img.shields.io/github/vendurehq/storefront-remix-starter?style=social&color=white)](https://github.com/vendurehq/storefront-remix-starter/stargazers) | Remix, React, Tailwind CSS | Official Vendure headless storefront starter leveraging Remix loaders, actions, and server-side cache. |
+| **[Reaction Commerce Demo Store](https://github.com/reactioncommerce/example-storefront)** | [![Stars](https://img.shields.io/github/stars/reactioncommerce/example-storefront?style=social&color=white)](https://github.com/reactioncommerce/example-storefront/stargazers) | Next.js, React, GraphQL | Modular ecommerce storefront starter built on React UI component libraries and GraphQL services. |
+| **[Spree Starter](https://github.com/spree/spree-starter)** | [![Stars](https://img.shields.io/github/stars/spree/spree-starter?style=social&color=white)](https://github.com/spree/spree-starter/stargazers) | Next.js, TypeScript | Official Next.js DTC & B2B storefront starter pre-configured for Spree Commerce v4 REST and GraphQL APIs. |
+
+---
+
+### 🧰 General-Purpose Meta-Frameworks
+
+While specialized starters provide out-of-the-box carts and checkouts, most high-scale commerce engineering teams build directly on top of general-purpose meta-frameworks:
+
+- **Next.js & React**: The dominant choice for headless storefronts. Features such as React Server Components (RSC), Incremental Static Regeneration (ISR), and Edge Middlewares enable sub-second page loads even across catalogs with millions of SKUs.
+- **Nuxt & Vue**: The gold standard for Vue developers. Provides lightweight hydration, SEO modules, and seamless data layer abstraction.
+- **Astro**: Ideal for editorial, editorial-commerce, and content-heavy DTC brands that prioritize zero-JavaScript defaults and peak Core Web Vitals scores.
+- **SvelteKit**: Optimal for developers demanding minimal bundle sizes, lightning-fast reactivity, and smooth customer checkout interactions without heavy runtime overhead.
+
+---
+
+## 🎯 Choosing the Right Headless Architecture
+
+```
+                                  ┌──────────────────────────────┐
+                                  │   Target Commerce Backend    │
+                                  └──────────────┬───────────────┘
+                                                 │
+                  ┌──────────────────────────────┼──────────────────────────────┐
+                  ▼                              ▼                              ▼
+          ┌───────────────┐              ┌───────────────┐              ┌───────────────┐
+          │    Shopify    │              │  Open-Source  │              │  WordPress /  │
+          │  (SaaS Core)  │              │(Medusa/Saleor)│              │  WooCommerce  │
+          └───────┬───────┘              └───────┬───────┘              └───────┬───────┘
+                  │                              │                              │
+                  ▼                              ▼                              ▼
+          ┌───────────────┐              ┌───────────────┐              ┌───────────────┐
+          │  Hydrogen +   │              │ Next.js /     │              │   WooNuxt /   │
+          │ Next.js/Router│              │ SvelteKit     │              │   Frontity    │
+          └───────────────┘              └───────────────┘              └───────────────┘
+```
+
+1. **For Shopify Merchants**: Use **Hydrogen** as a headless library mounted inside **Next.js** or **React Router**. Deploy on Oxygen or Vercel.
+2. **For 100% Open-Source Control**: Pair **Medusa** or **Saleor** with their native **Next.js** storefront starters.
+3. **For Content & Editorial Heavy Stores**: Deploy **Astro** or **Next.js** with a headless CMS (Sanity, Strapi, Contentful) and integrate Shopify Storefront API.
+4. **For Multi-Backend Aggregators**: Evaluate **Svelte Commerce** or **Vue Storefront (Alokai)** for pre-wired multi-service connectors.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions! To suggest an update, add a framework, or refine pricing metrics:
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a descriptive feature branch (`git checkout -b feature/add-storefront-starter`).
+3. 📝 Update `README.md` following our structured tabular layout, accurate pricing tiers, and verifiable GitHub links.
+4. 🚀 Open a Pull Request detailing your changes.
+
+---
+
+## ⚖️ Disclaimer & Security Guidelines
+
+- **Decoupled Security & PCI DSS**: Headless storefronts decouple frontends from the payment vault. Ensure your checkout workflow redirects to PCI-DSS Level 1 compliant hosted checkout surfaces (e.g., Shopify Shop Pay, Stripe Elements, or Medusa Payment Sessions).
+- **Independent Evaluation**: Star counts, valuations, and pricing tiers reflect data collected as of October 2026. Review official vendor documentation before signing enterprise contracts.
+
+---
+
+<div align="center">
+
+**Built with ❤️ for frontend engineers, ecommerce architects, and composable storefront builders.**
+
+⭐ Star this repository if it helps you architect your next headless commerce project!
+
+</div>
