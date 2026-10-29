@@ -61,9 +61,9 @@ Below is a detailed breakdown of notable commercial hosted platforms, storefront
 
 ### 🚀 Top Frameworks & Starters (Ranked by Stars)
 
-The table below catalogs premier open-source headless commerce frameworks, starters, and composable storefront engines, strictly ordered by **GitHub Star Count** descending.
+The table below catalogs premier open-source headless commerce frameworks, starters, and composable storefront engines, strictly ordered by **GitHub Stars_Count** descending.
 
-| 📦 Repository & Framework | ⭐ GitHub Stars | 🧩 Primary Tech Stack | 🎯 Commerce Focus & Backend Connectors |
+| 📦 Repository & Framework | ⭐ GitHub_Stars | 🧩 Primary Tech Stack | 🎯 Commerce Focus & Backend Connectors |
 | :--- | :---: | :--- | :--- |
 | **[Next.js](https://github.com/vercel/next.js)** | [![Stars](https://img.shields.io/github/stars/vercel/next.js?style=social&color=white)](https://github.com/vercel/next.js/stargazers) | React, Node.js, TypeScript | Dominant React meta-framework for high-performance SSR/SSG storefronts, App Router, and Server Actions. |
 | **[Astro](https://github.com/withastro/astro)** | [![Stars](https://img.shields.io/github/stars/withastro/astro?style=social&color=white)](https://github.com/withastro/astro/stargazers) | Islands Architecture, Vite | Zero-JS default static site generator ideal for lightning-fast, content-heavy SEO commerce storefronts. |
@@ -155,7 +155,7 @@ If you find this curated directory useful for architecting your headless commerc
 ## ⚖️ Disclaimer & Security Guidelines
 
 - **Decoupled Security & PCI DSS**: Headless storefronts decouple frontends from the payment vault. Ensure your checkout workflow redirects to PCI-DSS Level 1 compliant hosted checkout surfaces (e.g., Shopify Shop Pay, Stripe Elements, or Medusa Payment Sessions).
-- **Independent Evaluation**: Star counts, valuations, and pricing tiers reflect data collected as of October 2026. Review official vendor documentation before signing enterprise contracts.
+- **Independent Evaluation**: Stars_Counts, valuations, and pricing tiers reflect data collected as of October 2026. Review official vendor documentation before signing enterprise contracts.
 
 ---
 
