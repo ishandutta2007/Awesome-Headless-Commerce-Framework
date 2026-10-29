@@ -61,7 +61,7 @@ Below is a detailed breakdown of notable commercial hosted platforms, storefront
 
 ### 🚀 Top Frameworks & Starters (Ranked by Stars)
 
-The table below catalogs premier open-source headless commerce frameworks, starters, and composable storefront engines, strictly ordered by **GitHub Stars_Count** descending.
+The table below catalogs premier open-source headless commerce frameworks, starters, and composable storefront engines, strictly ordered by **GitHub_Stars_Count** descending.
 
 | 📦 Repository & Framework | ⭐ GitHub_Stars | 🧩 Primary Tech Stack | 🎯 Commerce Focus & Backend Connectors |
 | :--- | :---: | :--- | :--- |
