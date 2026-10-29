@@ -4,9 +4,11 @@
 
 ![Awesome Headless Commerce Framework Banner](assets/banner.svg)
 
-[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Headless-Commerce-Framework)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Headless-Commerce-Framework/blob/main/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **Curated Index of Headless Commerce Frameworks, Composable Storefronts, API-First Commerce Platforms & Framework-Agnostic Toolkits.**
 
@@ -25,7 +27,9 @@
   - [🧰 General-Purpose Meta-Frameworks](#-general-purpose-meta-frameworks)
 - [🎯 Choosing the Right Headless Architecture](#-choosing-the-right-headless-architecture)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
 - [⚖️ Disclaimer & Security Guidelines](#-disclaimer--security-guidelines)
+- [⭐ Star History](#-star-history)
 
 ---
 
@@ -138,10 +142,26 @@ We welcome community contributions! To suggest an update, add a framework, or re
 
 ---
 
+## 💖 Support
+
+If you find this curated directory useful for architecting your headless commerce stack:
+- ⭐ **Star** this repository on GitHub.
+- 🍴 **Fork** and contribute starters, benchmarks, or case studies.
+- 📢 **Share** with frontend engineers, ecommerce developers, and tech leads.
+- ☕ **Sponsor & Buy a Coffee**: Support ongoing maintenance and curation via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
 ## ⚖️ Disclaimer & Security Guidelines
 
 - **Decoupled Security & PCI DSS**: Headless storefronts decouple frontends from the payment vault. Ensure your checkout workflow redirects to PCI-DSS Level 1 compliant hosted checkout surfaces (e.g., Shopify Shop Pay, Stripe Elements, or Medusa Payment Sessions).
 - **Independent Evaluation**: Star counts, valuations, and pricing tiers reflect data collected as of October 2026. Review official vendor documentation before signing enterprise contracts.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Headless-Commerce-Framework&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Headless-Commerce-Framework&type=date&legend=top-left)
 
 ---
 
